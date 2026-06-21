@@ -4,7 +4,7 @@
 
 A Cloudflare Worker that acts as a transparent proxy with payment-gated access using the [x402 protocol](https://x402.org) and stateless cookie-based authentication.
 
-**Live Demo** - Try the built-in endpoints (other routes will fail as no origin is configured):
+Try the built-in endpoints (other routes will fail as no origin is configured):
 
 - [/\_\_x402/health](https://x402proxy-template.news.eti.cfdata.org/__x402/health) - Public health check (200 OK)
 - [/\_\_x402/protected](https://x402proxy-template.news.eti.cfdata.org/__x402/protected) - Protected endpoint (402 Payment Required)
